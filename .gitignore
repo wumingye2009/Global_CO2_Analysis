@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow these folders (the directory entries themselves)
+!/src/
+!/data/
+!/notebooks/
+
+# Then allow everything under them (recursively)
+!/src/**
+!/data/**
+!/notebooks/**
+
+# Allow important files in repo root
+!README.md
+!requirements.txt
+
+# (optional) keep .gitignore itself tracked
+!.gitignore
