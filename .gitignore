@@ -5,11 +5,13 @@
 !/src/
 !/data/
 !/notebooks/
+!/img/
 
 # Then allow everything under them (recursively)
 !/src/**
 !/data/**
 !/notebooks/**
+!/img/**
 
 # Allow important files in repo root
 !README.md
@@ -17,3 +19,4 @@
 
 # (optional) keep .gitignore itself tracked
 !.gitignore
+img
