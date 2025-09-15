@@ -5,13 +5,13 @@
 !/src/
 !/data/
 !/notebooks/
-!/img/
+!/images/
 
 # Then allow everything under them (recursively)
 !/src/**
 !/data/**
 !/notebooks/**
-!/img/**
+!/images/**
 
 # Allow important files in repo root
 !README.md

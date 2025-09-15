@@ -106,8 +106,8 @@ Example Screenshots 🖼️
 
 ## Example Screenshot
 
-![Dashboard Example](img/dashboard_example.jpg)
-<img src="img/dashboard_example.jpg" alt="Dashboard Example" width="600">
+![Dashboard Example](images/dashboard.jpg)
+<img src="images/dashboard.jpg" alt="Dashboard Example" width="600">
 
 
 Histogram of CO₂ emissions for a selected year.
