@@ -1,6 +1,7 @@
-# CO₂ Emissions Visualization — Data Analyst 
+# CO₂ Emissions Visualization — Data Analyst
 
-####
+#### 
+
 A complete, reproducible mini-project for Course 8: Data Visualization with Python.
 We analyze global CO₂ emissions by country and year, build multiple visualizations (histograms, maps), and ship an interactive dashboard.
 A complete, reproducible mini-project for Global CO₂ emissions by country and year, build multiple visualizations (histograms, maps), and ship an interactive dashboard.
@@ -17,23 +18,23 @@ Unit: co2 is measured in million tonnes of CO₂ (MtCO₂)
 Column names may vary across CSVs (e.g., Name vs Entity, co2 vs co2_including_luc). We make the notebook robust to these differences.
 ####
 
-##📁 Repository Structure
+## 📁 Repository Structure
 
-####
-.
+```plaintext
 ├─ data/
-│  ├─ co2_emissions.csv
-│  └─ world-countries.json        # auto-downloaded if missing
+│ ├─ co2_emissions.csv
+│ └─ world-countries.json # auto-downloaded if missing
 ├─ notebooks/
-│  └─ Global_CO2_Analysis         # main notebook
+│ └─ Global_CO2_Analysis # main notebook
 │── src/
-│ └── app.py                      # Main Dash application
+│ └── app.py # Main Dash application
 │── img/
-│ └── dashboard_example.jpg        
+│ └── dashboard_example.jpg  
 └─ README.md
 └─ requirement.txt
+```
 
-####
+#### 
 
 # CO₂ Emissions Dashboard 🌍
 
@@ -43,6 +44,7 @@ The app allows you to explore emissions by country, year, and metric, with trans
 ---
 
 ## Features ✨
+
 - **Interactive controls**:
   - Dropdown to select emission metrics (e.g., total CO₂, coal, oil, gas).
   - Slider to choose a year.
@@ -92,11 +94,9 @@ Run the app:
 
 python src/app.py
 
-
 Open your browser at:
 
 http://127.0.0.1:8050/
-
 
 or, if running on a server:
 
@@ -107,7 +107,6 @@ Example Screenshots 🖼️
 ## Example Screenshot
 
 ![Dashboard Example](images/dashboard.jpg)
-
 
 Histogram of CO₂ emissions for a selected year.
 
