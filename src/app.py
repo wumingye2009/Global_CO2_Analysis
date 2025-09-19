@@ -22,7 +22,7 @@ def pick_first_col(df, candidates):
 
 # —— 读数据
 if not DATA_PATH.exists():
-    raise FileNotFoundError("Place your Kaggle CSV at ./data/co2_emissions.csv (rename if needed)")
+    raise FileNotFoundError("Place your Kaggle CSV at ../data/co2_emissions.csv (rename if needed)")
 
 df = pd.read_csv(DATA_PATH)
 
@@ -143,4 +143,4 @@ def update(metric, year, transform):
 if __name__ == "__main__":
     # 本地运行：python app.py
     # 浏览器打开：http://127.0.0.1:8050
-    app.run(debug=True, host="0.0.0.0", port=8050)
+    app.run(debug=True, host="127.0.0.1", port=8050)
